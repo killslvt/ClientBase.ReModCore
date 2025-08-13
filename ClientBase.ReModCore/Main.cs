@@ -16,7 +16,8 @@ namespace ClientBase
 {
     //This is just a base for anyone wanting to make a client
     //Made by mhmswiss | https://discord.gg/Js5HJaWX2S
-    //The ClientBase.rar file contains the icons needed to fix the System.IO.File.ReadAllBytes error
+    //ReMod.Core can be found in the refs folder ClientBase.ReModCore/Refs
+
     internal class Main : MelonMod
     {
         #region ApplicationStart&Quit

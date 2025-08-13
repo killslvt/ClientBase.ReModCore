@@ -3,6 +3,7 @@ using ReMod.Core.Managers;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using VRC.UI.Controls;
 
 namespace ClientBase.Loader
 {
@@ -55,5 +56,7 @@ namespace ClientBase.Loader
 
             Logging.Log("Quick Menu buttons loaded!", LType.Success);
         }
+
+        public static MenuStateController menuStateController;
     }
 }

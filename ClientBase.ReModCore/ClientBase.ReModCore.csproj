@@ -63,8 +63,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Refs\Managed\Photon-DotNet.dll</HintPath>
     </Reference>
-    <Reference Include="ReMod.Core">
-      <HintPath>.\ReMod.Core.dll</HintPath>
+    <Reference Include="ReMod.Core, Version=1.1.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Refs\ReMod.Core.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
